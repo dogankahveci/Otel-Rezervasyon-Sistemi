@@ -1,0 +1,7 @@
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\OtelRezarvasyon.DTO\bin\Debug\OtelRezarvasyon.DTO.dll
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\OtelRezarvasyon.DTO\bin\Debug\OtelRezarvasyon.DTO.pdb
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\OtelRezarvasyon.DTO\obj\Debug\OtelRezarvasyon.DTO.dll
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\OtelRezarvasyon.DTO\obj\Debug\OtelRezarvasyon.DTO.pdb
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\OtelRezarvasyon.DTO\obj\Debug\OtelRezarvasyon.DTO.csprojResolveAssemblyReference.cache
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\OtelRezarvasyon.DTO\bin\Debug\OtelRezarvasyon.Entity.dll
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\OtelRezarvasyon.DTO\bin\Debug\OtelRezarvasyon.Entity.pdb

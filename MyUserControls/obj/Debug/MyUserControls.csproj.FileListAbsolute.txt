@@ -1,0 +1,7 @@
+C:\Users\dogan\Desktop\CustomerInfo\MyUserControls\bin\Debug\WindowsFormsControlLibrary2.dll
+C:\Users\dogan\Desktop\CustomerInfo\MyUserControls\bin\Debug\WindowsFormsControlLibrary2.pdb
+C:\Users\dogan\Desktop\CustomerInfo\MyUserControls\obj\Debug\MyUserControls.csprojResolveAssemblyReference.cache
+C:\Users\dogan\Desktop\CustomerInfo\MyUserControls\obj\Debug\WindowsFormsControlLibrary2.CustomerInfo.resources
+C:\Users\dogan\Desktop\CustomerInfo\MyUserControls\obj\Debug\MyUserControls.csproj.GenerateResource.Cache
+C:\Users\dogan\Desktop\CustomerInfo\MyUserControls\obj\Debug\WindowsFormsControlLibrary2.dll
+C:\Users\dogan\Desktop\CustomerInfo\MyUserControls\obj\Debug\WindowsFormsControlLibrary2.pdb

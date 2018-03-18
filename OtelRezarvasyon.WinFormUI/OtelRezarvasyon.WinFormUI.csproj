@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3BB330A7-7A0F-42D9-BC0A-97183848CC6F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OtelRezarvasyon.WinFormUI</RootNamespace>
+    <AssemblyName>OtelRezarvasyon.WinFormUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MyUserControls">
+      <HintPath>..\MyUserControls\bin\Release\MyUserControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContactAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactAddForm.Designer.cs">
+      <DependentUpon>ContactAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactUpdateForm.Designer.cs">
+      <DependentUpon>ContactUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerAddForm.Designer.cs">
+      <DependentUpon>CustomerAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerAddForReservationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerAddForReservationForm.Designer.cs">
+      <DependentUpon>CustomerAddForReservationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerUpdateForm.Designer.cs">
+      <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerViewForm.Designer.cs">
+      <DependentUpon>CustomerViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MesajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MesajForm.Designer.cs">
+      <DependentUpon>MesajForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReservationAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservationAddForm.Designer.cs">
+      <DependentUpon>ReservationAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReservationListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservationListForm.Designer.cs">
+      <DependentUpon>ReservationListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReservationUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservationUpdateForm.Designer.cs">
+      <DependentUpon>ReservationUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomAddForm.Designer.cs">
+      <DependentUpon>RoomAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomListForm.Designer.cs">
+      <DependentUpon>RoomListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomSelectForReservationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomSelectForReservationForm.Designer.cs">
+      <DependentUpon>RoomSelectForReservationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomUpdateForm.Designer.cs">
+      <DependentUpon>RoomUpdateForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ContactAddForm.resx">
+      <DependentUpon>ContactAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactUpdateForm.resx">
+      <DependentUpon>ContactUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerAddForm.resx">
+      <DependentUpon>CustomerAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerAddForReservationForm.resx">
+      <DependentUpon>CustomerAddForReservationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerUpdateForm.resx">
+      <DependentUpon>CustomerUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerViewForm.resx">
+      <DependentUpon>CustomerViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MesajForm.resx">
+      <DependentUpon>MesajForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReservationAddForm.resx">
+      <DependentUpon>ReservationAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservationListForm.resx">
+      <DependentUpon>ReservationListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservationUpdateForm.resx">
+      <DependentUpon>ReservationUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomAddForm.resx">
+      <DependentUpon>RoomAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomListForm.resx">
+      <DependentUpon>RoomListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomSelectForReservationForm.resx">
+      <DependentUpon>RoomSelectForReservationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomUpdateForm.resx">
+      <DependentUpon>RoomUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OtelRezarvasyon.BLL\OtelRezarvasyon.BLL.csproj">
+      <Project>{5d25a98c-f12e-45f8-bc71-e8a851aee416}</Project>
+      <Name>OtelRezarvasyon.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OtelRezarvasyon.DTO\OtelRezarvasyon.DTO.csproj">
+      <Project>{25acaaf6-149a-49d5-ba70-663536bc6013}</Project>
+      <Name>OtelRezarvasyon.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OtelRezarvasyon.Entity\OtelRezarvasyon.Entity.csproj">
+      <Project>{0a3d6f42-9ff9-4b3e-846f-edb66b68f24b}</Project>
+      <Name>OtelRezarvasyon.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_button-check_green_68872.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_button-check_green_688721.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_exit_38999.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_onebit_35_12609.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\OtelRezarvasyon.Entity\bin\Debug\OtelRezarvasyon.Entity.dll
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\OtelRezarvasyon.Entity\bin\Debug\OtelRezarvasyon.Entity.pdb
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\OtelRezarvasyon.Entity\obj\Debug\OtelRezarvasyon.Entity.dll
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\OtelRezarvasyon.Entity\obj\Debug\OtelRezarvasyon.Entity.pdb
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\OtelRezarvasyon.Entity\obj\Debug\OtelRezarvasyon.Entity.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\MyUserControls\obj\Release\MyUserControls.csproj.GenerateResource.Cache
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\MyUserControls\bin\Release\MyUserControls.dll
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\MyUserControls\bin\Release\MyUserControls.pdb
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\MyUserControls\obj\Release\MyUserControls.dll
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\MyUserControls\obj\Release\MyUserControls.pdb
+C:\Users\dogan\Desktop\OtelRezarvasyon.WinFormUI\MyUserControls\obj\Release\MyUserControls.CustomerInfo.resources
